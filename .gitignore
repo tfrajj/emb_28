@@ -1,0 +1,19 @@
+# VS Code local workspace settings
+.vscode/
+
+# PlatformIO build & cache
+.pio/
+.cache/
+.dummy
+compile_commands.json
+README
+
+# ESP-IDF auto-generated sdkconfig (keep sdkconfig.defaults if used)
+sdkconfig.*
+!sdkconfig.defaults
+*.old
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
